@@ -1,7 +1,9 @@
 "use client";
 
 import { styled } from "styled-components";
-import { theme } from "../style/theme";
+
+import { theme } from "@/src/style/theme";
+import Header from "@/src/components/Header";
 
 const Title = styled.h1`
     font-size: ${theme.typography.size[3]};
@@ -11,6 +13,7 @@ const Title = styled.h1`
 export default function HomeScreen() {
     return (
         <main>
+            <Header />
             <Title>Leadster</Title>
         </main>
     );
