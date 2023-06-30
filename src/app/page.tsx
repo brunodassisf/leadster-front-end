@@ -1,15 +1,13 @@
-"use client";
+import WrapperPage from "@/src/components/WrapperPage";
+import Banner from "@/src/components/Banner";
 
-import Header from "@/src/components/Header";
-import Banner from "../components/Banner";
-import Leadarea from "../module/Leadarea";
+import Leadarea from "@/src/module/Leadarea";
 
 export default function HomeScreen() {
     return (
-        <main>
-            <Header />
+        <WrapperPage>
             <Banner />
             <Leadarea />
-        </main>
+        </WrapperPage>
     );
 }
