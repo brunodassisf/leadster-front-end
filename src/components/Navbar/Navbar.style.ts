@@ -4,7 +4,7 @@ import { theme } from "@/src/style/theme";
 import Link from "next/link";
 
 interface IActiveButton {
-    active?: boolean;
+    active: boolean;
 }
 
 export const Nav = styled.nav`
@@ -13,7 +13,9 @@ export const Nav = styled.nav`
     gap: ${theme.space[4]};
 `;
 
-export const Button = styled(Link)<IActiveButton>`
+export const Button = styled(Link).withConfig({
+    shouldForwardProp: (prop) => !["active"].includes(prop),
+})<IActiveButton>`
     background-color: ${({ active }) =>
         active ? theme.color.blue : theme.color.white};
     color: ${({ active }) =>
