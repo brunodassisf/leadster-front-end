@@ -5,6 +5,7 @@ import { Container } from "@/src/style/globalStyle";
 
 export const Section = styled(Container)`
     background-color: ${theme.color.white};
+    padding: ${theme.space[10]};
 `;
 
 export const Controls = styled.div`
@@ -13,13 +14,29 @@ export const Controls = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: ${theme.space[6]};
-    border-bottom: 3px solid ${theme.color.grayLight};
-    padding: ${theme.space[0]} ${theme.space[10]};
-    padding-bottom: ${theme.space[10]};
+    gap: ${theme.space[10]};
+    position: relative;
+    margin-bottom: ${theme.space[10]};
+    & hr {
+        position: absolute;
+        bottom: -${theme.space[10]};
+        width: 100%;
+        height: ${theme.space[1]};
+        border: none;
+        background-color: ${theme.color.grayLight};
+    }
     @media ${device.md} {
         flex-direction: column;
         align-items: start;
         justify-content: space-between;
     }
+`;
+
+export const Leads = styled.article`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: ${theme.space[10]};
+    margin-top: ${theme.space[15]};
+    width: 100%;
 `;

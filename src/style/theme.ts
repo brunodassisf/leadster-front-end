@@ -1,11 +1,15 @@
 const color = {
-    blueLight: "#f0f8ff",
-    blue: "#007eff",
-    blueDark: "#0084ff",
-    grayLight: "#f1f2f4",
+    blue: "#2c83fb",
+    blueMedium: "#1F76F0",
+    blueDark: "#1c3c50",
+
+    grayLight: "#c1d3dd",
     grayDark: "#2f4c5e",
     white: "#ffffff",
 };
+
+// blue 2c83fb
+// blueMedium 1F76F0
 
 const space = [
     "0px",
