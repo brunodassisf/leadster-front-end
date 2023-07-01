@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "@/src/components/Navbar";
-import { Container, Controls } from "./Leadarea.style";
+import { Section, Controls } from "./Leadarea.style";
 import Select from "@/src/components/Select";
 
 const options = [
@@ -11,7 +11,7 @@ const options = [
 
 function Leadarea() {
     return (
-        <Container id="lead">
+        <Section id="lead">
             <Controls>
                 <Navbar />
                 <Select
@@ -21,7 +21,7 @@ function Leadarea() {
                     placeholder="Filtrar"
                 />
             </Controls>
-        </Container>
+        </Section>
     );
 }
 

@@ -1,7 +1,7 @@
 "use client";
 
 import {
-    Container,
+    Section,
     TitleOne,
     TitleTwo,
     TitleThree,
@@ -12,7 +12,7 @@ import {
 
 export default function Banner() {
     return (
-        <Container>
+        <Section>
             <TitleOne>WEBINARS EXCLUSIVOS</TitleOne>
             <TitleTwo>Menos Conversinha,</TitleTwo>
             <TitleThree>
@@ -29,6 +29,6 @@ export default function Banner() {
                 Conheça as estratégias que <strong>mudaram o jogo</strong> e
                 como aplicá-las no seu negócio
             </Paragraph>
-        </Container>
+        </Section>
     );
 }

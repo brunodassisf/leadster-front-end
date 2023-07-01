@@ -2,15 +2,11 @@ import styled from "styled-components";
 import Image from "next/image";
 import { device } from "@/src/style/device";
 import { theme } from "@/src/style/theme";
+import { Container } from "@/src/style/globalStyle";
 
-export const Container = styled.section`
+export const Section = styled(Container)`
     background-color: #f0f8ff;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: ${theme.space[0]} ${theme.space[2]};
+    max-width: 100%;
 `;
 
 export const TitleOne = styled.h6`
