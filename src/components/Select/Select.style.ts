@@ -27,6 +27,7 @@ export const Container = styled.div`
         color: ${theme.color.grayDark};
     }
     & .select_container {
+        min-width: 200px;
         @media ${device.md} {
             width: 100%;
         }
