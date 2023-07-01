@@ -10,9 +10,10 @@ export const Container = styled.div`
     gap: ${theme.space[5]};
     & label {
         font-weight: ${theme.typography.weight[5]};
+        color: ${theme.color.grayDark};
     }
     & .select_component__control {
-        border: 2px solid ${theme.color.grayDark};
+        border: 1px solid ${theme.color.grayDark};
         border-radius: ${theme.space[6]};
     }
     & .select_component__indicator-separator {
