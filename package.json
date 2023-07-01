@@ -15,7 +15,8 @@
     "react-dom": "^18.3.0-next-fecc288b7-20221025",
     "react-icons": "^4.10.1",
     "react-select": "^5.7.3",
-    "styled-components": "^6.0.1"
+    "styled-components": "^6.0.1",
+    "swr": "^2.2.0"
   },
   "devDependencies": {
     "@types/node": "20.3.2",
