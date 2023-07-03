@@ -5,7 +5,15 @@ import { Container } from "@/src/style/globalStyle";
 
 export const Section = styled(Container)`
     background-color: ${theme.color.white};
-    padding: ${theme.space[10]};
+    padding: ${theme.space[30]} ${theme.space[10]};
+`;
+
+export const Divider = styled.hr`
+    width: 100%;
+    height: ${theme.space[1]};
+    border: none;
+    background-color: ${theme.color.grayLight};
+    margin: ${theme.space[10]} ${theme.space[0]};
 `;
 
 export const Controls = styled.div`
@@ -17,13 +25,10 @@ export const Controls = styled.div`
     gap: ${theme.space[10]};
     position: relative;
     margin-bottom: ${theme.space[10]};
-    & hr {
+    & ${Divider} {
         position: absolute;
         bottom: -${theme.space[10]};
-        width: 100%;
-        height: ${theme.space[1]};
-        border: none;
-        background-color: ${theme.color.grayLight};
+        margin: ${theme.space[0]};
     }
     @media ${device.md} {
         flex-direction: column;
@@ -35,7 +40,7 @@ export const Controls = styled.div`
 export const Leads = styled.article`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
     gap: ${theme.space[10]};
     margin-top: ${theme.space[15]};
     width: 100%;
