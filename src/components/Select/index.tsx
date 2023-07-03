@@ -9,7 +9,7 @@ interface ICustomProps {
     label?: string;
 }
 
-interface IOption {
+export interface IOption {
     label: string;
     value: string;
 }
