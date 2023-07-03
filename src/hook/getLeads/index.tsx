@@ -2,10 +2,18 @@ import useSWR from "swr";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
-export default function useGetLeads<T>() {
-    const { data, error, isLoading } = useSWR<T>("/api/leads", fetcher, {
-        revalidateOnFocus: false,
-    });
+interface IuseGetLeadsProps {
+    page: number;
+}
 
-    return { data, error, isLoadingLeads: isLoading };
+export default function useGetLeads<T>({ page }: IuseGetLeadsProps) {
+    const { data, error, isLoading, mutate } = useSWR<T>(
+        `/api/leads?page=${page}`,
+        fetcher,
+        {
+            revalidateOnFocus: false,
+        }
+    );
+
+    return { data, error, mutate, isLoadingLeads: isLoading };
 }

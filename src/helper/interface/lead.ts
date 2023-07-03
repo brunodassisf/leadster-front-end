@@ -5,5 +5,6 @@ export interface ILead {
     thumbnail: string;
 }
 export interface ILeads {
-    results: ILead[];
+    leads: ILead[];
+    totalPages: number;
 }
