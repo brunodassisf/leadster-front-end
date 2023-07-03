@@ -4,8 +4,11 @@ import imageLoader from "@/src/helper/imageLoader";
 import {
     Action,
     Background,
+    DemonstrationButton,
+    Title,
     FooterInfos,
     Section,
+    SubTitle,
     Infos,
 } from "./Demonstration.style";
 import Image from "next/image";
@@ -22,18 +25,21 @@ export default function Demonstration() {
                     alt="comparativo_img"
                     width={739}
                     height={687}
+                    className="comparativo_img"
                 />
                 <Infos>
-                    <h3>
+                    <Title>
                         Pronto para triplicar suas
                         <strong>Geração de Leads?</strong>
-                    </h3>
-                    <h4>
+                    </Title>
+                    <SubTitle>
                         Criação e ativação em <strong>4 minutos.</strong>
-                    </h4>
+                    </SubTitle>
                     <hr />
                     <Action>
-                        <button>VER DEMONSTRAÇÃO</button>
+                        <DemonstrationButton href="/">
+                            VER DEMONSTRAÇÃO
+                        </DemonstrationButton>
                         <Image
                             loader={({ src, width }) =>
                                 imageLoader({ src, width, quality: 100 })
@@ -45,26 +51,30 @@ export default function Demonstration() {
                         />
                     </Action>
                     <FooterInfos>
-                        <Image
-                            loader={({ src, width }) =>
-                                imageLoader({ src, width, quality: 100 })
-                            }
-                            src="/static/image/no-card-dark.webp"
-                            alt="no-card-dark"
-                            width={20}
-                            height={20}
-                        />
-                        <span>Não é necessário Cartão de Crédito</span>
-                        <Image
-                            loader={({ src, width }) =>
-                                imageLoader({ src, width, quality: 100 })
-                            }
-                            src="/static/image/rating.webp"
-                            alt="rating"
-                            width={92}
-                            height={16}
-                        />
-                        <span>4.9/5 média de satisfação</span>
+                        <div>
+                            <Image
+                                loader={({ src, width }) =>
+                                    imageLoader({ src, width, quality: 100 })
+                                }
+                                src="/static/image/no-card-dark.webp"
+                                alt="no-card-dark"
+                                width={13}
+                                height={13}
+                            />
+                            <span>Não é necessário Cartão de Crédito</span>
+                        </div>
+                        <div>
+                            <Image
+                                loader={({ src, width }) =>
+                                    imageLoader({ src, width, quality: 100 })
+                                }
+                                src="/static/image/rating.webp"
+                                alt="rating"
+                                width={92}
+                                height={16}
+                            />
+                            <span>4.9/5 média de satisfação</span>
+                        </div>
                     </FooterInfos>
                 </Infos>
             </Section>
