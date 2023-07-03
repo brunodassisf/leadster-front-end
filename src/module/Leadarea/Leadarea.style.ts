@@ -13,7 +13,7 @@ export const Divider = styled.hr`
     height: ${theme.space[1]};
     border: none;
     background-color: ${theme.color.grayLight};
-    margin: ${theme.space[10]} ${theme.space[0]};
+    margin-top: ${theme.space[25]};
 `;
 
 export const Controls = styled.div`
