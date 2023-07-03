@@ -4,16 +4,11 @@ import { Content } from "@/src/components/Card/Card.style";
 import { ILead } from "@/src/helper/interface/lead";
 import { FaPlay } from "react-icons/fa";
 import { Skeleton } from "@/src/style/globalStyle";
+import imageLoader from "@/src/helper/imageLoader";
 
 interface CardProps {
     data: ILead;
 }
-
-const imageLoader = ({ src, width, quality }) => {
-    return `${process.env.NEXT_PUBLIC_URL}/${src}?w=${width}&q=${
-        quality || 75
-    }`;
-};
 
 export function Card({ data: { name, thumbnail, release } }: CardProps) {
     return (
