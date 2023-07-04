@@ -51,6 +51,15 @@ export const Container = styled.section`
     }
 `;
 
+export const Divider = styled.hr`
+    width: 100%;
+    height: ${theme.space[1]};
+    border: none;
+    background-color: ${theme.color.grayLight};
+    margin-top: ${theme.space[25]};
+    margin-bottom: ${theme.space[15]};
+`;
+
 const skeletonAnimation = keyframes`
   0% {
     background-position: -200px 0;

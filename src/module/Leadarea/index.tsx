@@ -9,7 +9,8 @@ import Pagination from "@/src/components/Pagination";
 
 import useGetLeads from "@/src/hook/getLeads";
 import { ILeads } from "@/src/helper/interface/lead";
-import { Section, Controls, Leads, Divider } from "./Leadarea.style";
+import { Section, Controls, Leads } from "./Leadarea.style";
+import { Divider } from "@/src/style/globalStyle";
 
 const options = [
     { label: "Data de publicação", value: "date" },
