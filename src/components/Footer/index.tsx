@@ -91,7 +91,6 @@ function Footer() {
                     alt="leadster.png"
                     width={194}
                     height={42}
-                    property="true"
                 />
                 <Tag>Transformando visitantes em clientes.</Tag>
                 <ManagerLinks>

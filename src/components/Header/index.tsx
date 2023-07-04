@@ -11,7 +11,7 @@ export default function Header() {
                 alt="leadster.png"
                 width={194}
                 height={42}
-                property="true"
+                priority={true}
             />
         </Container>
     );
