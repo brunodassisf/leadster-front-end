@@ -5,7 +5,8 @@ const color = {
     blueMedium: "#1F76F0",
     blueDark: "#1c3c50",
 
-    grayLight: "#c1d3dd",
+    grayExtraLight: "#f7f8fb",
+    grayLight: "#b5c4cb",
     grayDark: "#2f4c5e",
     white: "#ffffff",
 };
