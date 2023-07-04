@@ -1,6 +1,7 @@
 import React from "react";
 import { FontsPlusJakartaSans } from "../helper/localFont";
 import StyledComponentsRegistry from "../lib/StyledComponentsRegistry";
+import AOSRegistry from "../lib/AOSRegistry";
 
 export default function RootLayout({
     children,
@@ -10,7 +11,11 @@ export default function RootLayout({
     return (
         <html lang="pt-BR">
             <body className={FontsPlusJakartaSans.className}>
-                <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+                <AOSRegistry>
+                    <StyledComponentsRegistry>
+                        {children}
+                    </StyledComponentsRegistry>
+                </AOSRegistry>
             </body>
         </html>
     );
