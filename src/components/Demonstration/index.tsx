@@ -26,8 +26,10 @@ export default function Demonstration() {
                     width={739}
                     height={687}
                     className="comparativo_img"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="2000"
                 />
-                <Infos>
+                <Infos data-aos="zoom-in-up" data-aos-duration="1000">
                     <Title>
                         Pronto para triplicar suas
                         <strong>Geração de Leads?</strong>

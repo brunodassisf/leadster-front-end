@@ -30,7 +30,7 @@ function Leadarea() {
 
     return (
         <Section id="lead">
-            <Controls>
+            <Controls data-aos="fade-up">
                 <Navbar />
                 <Select
                     id="order_lead"
@@ -43,7 +43,7 @@ function Leadarea() {
                 />
                 <Divider />
             </Controls>
-            <Leads>
+            <Leads data-aos="fade-up">
                 {data && !isLoadingLeads ? (
                     <>
                         {data?.leads.map((item) => (

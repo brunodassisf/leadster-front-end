@@ -13,9 +13,9 @@ import {
 export default function Banner() {
     return (
         <Section>
-            <TitleOne>WEBINARS EXCLUSIVOS</TitleOne>
-            <TitleTwo>Menos Conversinha,</TitleTwo>
-            <TitleThree>
+            <TitleOne data-aos="fade-down">WEBINARS EXCLUSIVOS</TitleOne>
+            <TitleTwo data-aos="fade-down">Menos Conversinha,</TitleTwo>
+            <TitleThree data-aos="fade-down">
                 <Text>Mais Conversão</Text>
                 <AssetHeader
                     src="/static/image/asset-header.png"
@@ -25,7 +25,7 @@ export default function Banner() {
                 />
             </TitleThree>
 
-            <Paragraph>
+            <Paragraph data-aos="fade-up">
                 Conheça as estratégias que <strong>mudaram o jogo</strong> e
                 como aplicá-las no seu negócio
             </Paragraph>
