@@ -9,6 +9,7 @@ export const Section = styled(Container)`
 `;
 
 export const Controls = styled.div`
+    z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
