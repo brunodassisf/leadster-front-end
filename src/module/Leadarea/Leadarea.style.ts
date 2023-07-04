@@ -1,19 +1,11 @@
 import styled from "styled-components";
 import { device } from "@/src/style/device";
 import { theme } from "@/src/style/theme";
-import { Container } from "@/src/style/globalStyle";
+import { Container, Divider } from "@/src/style/globalStyle";
 
 export const Section = styled(Container)`
     background-color: ${theme.color.white};
     padding: ${theme.space[30]} ${theme.space[10]};
-`;
-
-export const Divider = styled.hr`
-    width: 100%;
-    height: ${theme.space[1]};
-    border: none;
-    background-color: ${theme.color.grayLight};
-    margin-top: ${theme.space[25]};
 `;
 
 export const Controls = styled.div`
