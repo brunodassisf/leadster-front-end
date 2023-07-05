@@ -8,11 +8,39 @@ import imageLoader from "@/src/helper/imageLoader";
 
 interface CardProps {
     data: ILead;
+    onClick: (lead: ILead | null) => void;
 }
 
-export function Card({ data: { name, thumbnail, release } }: CardProps) {
+export function Card({
+    data: {
+        id,
+        name,
+        thumbnail,
+        release,
+        description,
+        docFile,
+        excelFile,
+        presensatioFile,
+        videoUrl,
+    },
+    onClick,
+}: CardProps) {
     return (
-        <Content>
+        <Content
+            onClick={() =>
+                onClick({
+                    id,
+                    name,
+                    thumbnail,
+                    release,
+                    description,
+                    docFile,
+                    excelFile,
+                    presensatioFile,
+                    videoUrl,
+                })
+            }
+        >
             <Image
                 loader={({ src, width }) =>
                     imageLoader({ src, width, quality: 100 })
@@ -21,6 +49,7 @@ export function Card({ data: { name, thumbnail, release } }: CardProps) {
                 alt={name}
                 width={362}
                 height={204}
+                priority={true}
             />
             <h6>{name}</h6>
             <div className="icon">
