@@ -60,7 +60,7 @@ const Pagination: React.FC<Props> = ({
 
     return (
         <WarpperPagination>
-            {!isLoading ? (
+            {!isLoading && totalPages > 0 ? (
                 <>
                     <Title>Página</Title>
                     {renderPagination()}
