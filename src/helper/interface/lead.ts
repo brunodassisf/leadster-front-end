@@ -13,3 +13,17 @@ export interface ILeads {
     leads: ILead[];
     totalPages: number;
 }
+
+type LeadContentModelProps = Pick<
+    ILead,
+    | "name"
+    | "description"
+    | "docFile"
+    | "excelFile"
+    | "presensatioFile"
+    | "videoUrl"
+>;
+
+export interface ILeadContentModel {
+    data: LeadContentModelProps;
+}
