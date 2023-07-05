@@ -5,12 +5,13 @@ export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
     try {
+        const urlPath = process.env.NEXT_PUBLIC_URL;
         const { searchParams } = new URL(request.url);
         const page = searchParams.get("page");
         const type = searchParams.get("type");
         const filter = searchParams.get("filter");
-        const data = await fetch("http://localhost:3000/api/acessData").then(
-            (res) => res.json()
+        const data = await fetch(`${urlPath}/api/acessData`).then((res) =>
+            res.json()
         );
 
         let getPageItems = {};
