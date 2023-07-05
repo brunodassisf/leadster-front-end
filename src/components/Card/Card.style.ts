@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { theme } from "@/src/style/theme";
+import { device } from "@/src/style/device";
 
 const transitonAnimation = `transition: opacity 0.5s ease;`;
 const displayFullSize = `
@@ -13,8 +14,7 @@ const displayFullSize = `
 export const Content = styled.div`
     border-radius: ${theme.space[5]};
     box-shadow: 0px 35px 35px -5px #e9e7e7;
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
     position: relative;
     cursor: pointer;
 
@@ -31,7 +31,7 @@ export const Content = styled.div`
         color: ${theme.color.blueDark};
         padding: ${theme.space[9]} ${theme.space[10]};
         font-size: ${theme.typography.size[2]};
-        line-height: 18px;
+        line-height: ${theme.space[9]};
         z-index: 2;
         position: relative;
         border-bottom-left-radius: ${theme.space[5]};
