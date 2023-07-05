@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import { FaCloudDownloadAlt } from "react-icons/fa";
 
 import Navbar from "@/src/components/Navbar";
 import Select, { IOption } from "@/src/components/Select";
@@ -12,16 +10,7 @@ import Modal from "@/src/components/Modal";
 
 import useGetLeads from "@/src/hook/getLeads";
 import { ILeads, ILead } from "@/src/helper/interface/lead";
-import {
-    ActionsFile,
-    Section,
-    Controls,
-    Discription,
-    Extensions,
-    Leads,
-    LeadDetail,
-    LeadDetailTitle,
-} from "./Leadarea.style";
+import { Section, Controls, Leads } from "./Leadarea.style";
 import { Divider } from "@/src/style/globalStyle";
 import LeadContentModal from "@/src/components/LeadContentModal";
 
