@@ -37,4 +37,7 @@ export const Leads = styled.article`
     gap: ${theme.space[10]};
     margin-top: ${theme.space[15]};
     width: 100%;
+    @media ${device.lg} {
+        justify-content: center;
+    }
 `;
