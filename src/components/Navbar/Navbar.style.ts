@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { device } from "@/src/style/device";
 import { theme } from "@/src/style/theme";
-import Link from "next/link";
 
 interface IActiveButton {
     active: boolean;
@@ -13,9 +12,10 @@ export const Nav = styled.nav`
     gap: ${theme.space[4]};
 `;
 
-export const Button = styled(Link).withConfig({
+export const Button = styled("div").withConfig({
     shouldForwardProp: (prop) => !["active"].includes(prop),
 })<IActiveButton>`
+    cursor: pointer;
     background-color: ${({ active }) =>
         active ? theme.color.blue : theme.color.white};
     color: ${({ active }) =>
