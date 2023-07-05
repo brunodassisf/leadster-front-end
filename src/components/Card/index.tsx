@@ -1,22 +1,20 @@
 import Image from "next/image";
 
 import { Content } from "@/src/components/Card/Card.style";
-import { ILead } from "@/src/helper/interface/lead";
+import { ModalContentLead } from "@/src/helper/interface/lead";
 import { FaPlay } from "react-icons/fa";
 import { Skeleton } from "@/src/style/globalStyle";
 import imageLoader from "@/src/helper/imageLoader";
 
 interface CardProps {
-    data: ILead;
-    onClick: (lead: ILead | null) => void;
+    data: ModalContentLead;
+    onClick: (lead: ModalContentLead | null) => void;
 }
 
 export function Card({
     data: {
-        id,
         name,
         thumbnail,
-        release,
         description,
         docFile,
         excelFile,
@@ -29,10 +27,8 @@ export function Card({
         <Content
             onClick={() =>
                 onClick({
-                    id,
                     name,
                     thumbnail,
-                    release,
                     description,
                     docFile,
                     excelFile,
