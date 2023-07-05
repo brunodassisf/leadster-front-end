@@ -12,17 +12,22 @@ const menuLead = [
     { id: 5, name: "Mídia Paga" },
 ];
 
-export default function Navbar() {
-    const searchParams = useSearchParams();
-    const selectedLead = searchParams.get("lead");
+interface NavbarProps {
+    type: number;
+    selectedType: (lead: number) => void;
+}
 
+export default function Navbar({ type, selectedType }: NavbarProps) {
     return (
         <Nav>
             {menuLead.map((item) => (
                 <Button
                     key={item.id}
-                    href={`/?lead=${item.name}#lead`}
-                    active={selectedLead === item.name}
+                    active={type === item.id}
+                    onClick={() => {
+                        if (type === item.id) selectedType(0);
+                        else selectedType(item.id);
+                    }}
                 >
                     {item.name}
                 </Button>
