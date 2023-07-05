@@ -5,6 +5,18 @@ const color = {
     blueMedium: "#1F76F0",
     blueDark: "#1c3c50",
 
+    greenLight: "#c2f4ea",
+    greenRegular: "#9fefdf",
+    greenMedium: "#02b488",
+
+    skyLight: "#c2e6ff",
+    skyRegular: "#a1d9ff",
+    skyMedium: "#3fa1f3",
+
+    yellowLight: "#fff8d0",
+    yellowRegular: "#fff1a0",
+    yellowMedium: "#aa9648",
+
     grayExtraLight: "#f7f8fb",
     grayLight: "#b5c4cb",
     grayDark: "#2f4c5e",
