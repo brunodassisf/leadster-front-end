@@ -9,34 +9,37 @@ import Pagination from "@/src/components/Pagination";
 import Modal from "@/src/components/Modal";
 
 import useGetLeads from "@/src/hook/getLeads";
-import { ILeads, ILead } from "@/src/helper/interface/lead";
+import { ILeads, ModalContentLead } from "@/src/helper/interface/lead";
 import { Section, Controls, Leads } from "./Leadarea.style";
 import { Divider } from "@/src/style/globalStyle";
 import LeadContentModal from "@/src/components/LeadContentModal";
 
 const options = [
-    { label: "Data de publicação", value: "date" },
+    { label: "Data de publicação", value: "order" },
     { label: "Curtidas", value: "like" },
 ];
 
 function Leadarea() {
     const [navFilter, setNavFilter] = useState<number>(0);
-    const [selectedLead, setSelectedLead] = useState<ILead | null>(null);
+    const [selectedLead, setSelectedLead] = useState<ModalContentLead | null>(
+        null
+    );
     const [page, setPage] = useState<number>(1);
     const [filter, setFilter] = useState<IOption | null>(null);
 
-    const handleLeadModal = (lead: ILead | null) => {
+    const handleLeadModal = (lead: ModalContentLead | null) => {
         setSelectedLead(lead);
     };
 
     const { data, error, isLoadingLeads, mutate } = useGetLeads<ILeads>({
         page,
         type: navFilter,
+        filter: filter?.value || "",
     });
 
     useEffect(() => {
         mutate();
-    }, [page, navFilter, mutate]);
+    }, [page, navFilter, filter, mutate]);
 
     return (
         <>
@@ -44,6 +47,7 @@ function Leadarea() {
                 <Controls data-aos="fade-up">
                     <Navbar type={navFilter} selectedType={setNavFilter} />
                     <Select
+                        isClearable
                         id="order_lead"
                         label="Ordenar por"
                         value={filter}
