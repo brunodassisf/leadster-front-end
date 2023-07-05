@@ -6,129 +6,269 @@
                     "id": 1,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-01",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 1,
+                    "like": 200
                 },
                 {
                     "id": 2,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-04-04",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 2,
+                    "like": 220
                 },
                 {
                     "id": 3,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-01-10",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/94RY0tD4chE",
+                    "type": 3,
+                    "like": 400
                 },
                 {
                     "id": 4,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-01",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 4,
+                    "like": 54
                 },
                 {
                     "id": 5,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-20",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 5,
+                    "like": 80
                 },
                 {
                     "id": 6,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-25",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/94RY0tD4chE",
+                    "type": 1,
+                    "like": 20
                 },
                 {
                     "id": 7,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-02-10",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 1,
+                    "like": 348
                 },
                 {
                     "id": 8,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-08",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 2,
+                    "like": 112
                 },
                 {
                     "id": 9,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-03-06",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/94RY0tD4chE",
+                    "type": 2,
+                    "like": 234
                 }
             ]
         },
         {
             "leads": [
                 {
-                    "id": 1,
+                    "id": 11,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-03",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/iHetrYfuJ-w",
+                    "type": 3,
+                    "like": 135
                 },
                 {
-                    "id": 2,
+                    "id": 12,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-18",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/1n0o7NWAjDM",
+                    "type": 3,
+                    "like": 89
                 },
                 {
-                    "id": 3,
+                    "id": 13,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-14",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/EFSpoXt1zrI",
+                    "type": 1,
+                    "like": 74
                 },
                 {
-                    "id": 4,
+                    "id": 14,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-05-25",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/iHetrYfuJ-w",
+                    "type": 4,
+                    "like": 98
                 },
                 {
-                    "id": 5,
+                    "id": 15,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-04-26",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/1n0o7NWAjDM",
+                    "type": 5,
+                    "like": 176
                 },
                 {
-                    "id": 6,
+                    "id": 16,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-02",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/EFSpoXt1zrI",
+                    "type": 1,
+                    "like": 34
                 }
             ]
         },
         {
             "leads": [
                 {
-                    "id": 1,
+                    "id": 17,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-28",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/Xfpr9JYX78A",
+                    "type": 5,
+                    "like": 36
                 },
                 {
-                    "id": 2,
+                    "id": 18,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-03-21",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/tPduuNHAeuo",
+                    "type": 4,
+                    "like": 379
                 },
                 {
-                    "id": 3,
+                    "id": 19,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-01-29",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/WG0taidKKHY",
+                    "type": 4,
+                    "like": 405
                 },
                 {
-                    "id": 4,
+                    "id": 20,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-06-13",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/Xfpr9JYX78A",
+                    "type": 5,
+                    "like": 67
                 },
                 {
-                    "id": 5,
+                    "id": 21,
                     "name": "Como aumentar sua Geração de Leads feat. Traktor",
                     "thumbnail": "/static/image/thumbnail.png",
-                    "release": "2023-01-01"
+                    "release": "2023-02-14",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, diam ut pretium commodo, libero lacus imperdiet urna, sed fringilla tortor sapien a magna. Aenean rutrum est ex, id mattis eros volutpat quis.",
+                    "excelFile": "Speadsheet.xls",
+                    "docFile": "Document.doc",
+                    "presensatioFile": "Presentation.ppt",
+                    "videoUrl": "https://www.youtube.com/embed/tPduuNHAeuo",
+                    "type": 3,
+                    "like": 147
                 }
             ]
         }
