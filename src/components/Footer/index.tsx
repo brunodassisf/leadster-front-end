@@ -107,13 +107,22 @@ function Footer() {
                     <ContactSocialMedia>
                         <h6>Siga a Leadster</h6>
                         <SocialMedia>
-                            <Link href="/">
+                            <Link
+                                href="https://www.linkedin.com/company/getleadster/?originalSubdomain=br"
+                                target="_blank"
+                            >
                                 <FaLinkedinIn />
                             </Link>
-                            <Link href="/">
+                            <Link
+                                href="https://www.facebook.com/leadsterplatform/?locale=pt_BR"
+                                target="_blank"
+                            >
                                 <FaFacebookF />
                             </Link>
-                            <Link href="/">
+                            <Link
+                                href="https://www.instagram.com/leadster.com.br/"
+                                target="_blank"
+                            >
                                 <FaInstagram />
                             </Link>
                         </SocialMedia>
