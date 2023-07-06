@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /api/acessData
+
+User-agent: *
+Disallow: /api/leads
+
+User-agent: *
+Allow: /
+
+Sitemap: https://leadster-front-end-ashen.vercel.app/sitemap.xml
