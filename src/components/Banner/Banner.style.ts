@@ -19,7 +19,7 @@ export const TitleOne = styled.h6`
     margin-bottom: 8px;
 `;
 
-export const TitleTwo = styled.h5`
+export const TitleTwo = styled.h2`
     color: #1c3c50;
     font-weight: 500;
     font-size: ${theme.typography.size[6]};
@@ -32,7 +32,7 @@ export const TitleThree = styled.div`
     position: relative;
 `;
 
-export const Text = styled.h3`
+export const Text = styled.h1`
     color: #0084ff;
     font-weight: 800;
     font-size: 60px;
